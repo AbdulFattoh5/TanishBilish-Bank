@@ -1,0 +1,167 @@
+@media screen and (max-width:1175px) {
+    .banner_hands {
+        display: none;
+    }
+
+    .value_cards {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .mobile_wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .hopcard_wrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .header_wrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner_h {
+        text-align: center;
+    }
+
+    .hopcard_img_img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .course_img_img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .course_wrap {
+        flex-direction: column;
+    }
+
+    .value_cards {
+        justify-content: center;
+    }
+
+    .aksiya_wrap {
+        flex-direction: column;
+    }
+
+    .links_app {
+        padding: 20px 58px;
+    }
+
+    .links_app:last-child {
+        padding: 19px 78px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .nav_btn {
+        display: none;
+    }
+
+    .outbtn {
+        display: block;
+    }
+
+    .value_h {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .bigCard_img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .apps {
+        height: auto;
+        width: 400px;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .mobileCard_img img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner_h {
+        font-size: 40px;
+    }
+
+    .mobile_card-h {
+        font-size: 25px;
+    }
+
+    .bigCard_h {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mobile_card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile_card:last-child {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .apps {
+        width: 300px;
+    }
+
+    .mobile_bigCard {
+        padding: 25px 60px 0;
+    }
+
+    .aksiya_card-img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav_menu {
+        display: none;
+    }
+
+    .phone_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+    }
+
+    .header_menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .banner_h{
+        font-size: 30px;
+    }
+}
